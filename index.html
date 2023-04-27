@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <title>..:: Honoratoiphones ::.. </title>
 </head>
 <body>
-    <!-- aula 24/04/2023 - HTML -->                  
+    <!-- aula 24/04/2023 - HTML -->  
+    <!-- inicio menu responsivo -->                
     <header id="header">
         <a id="logo" href="index.html"><img src="./img/iphone-14-logo_4.jpg" alt="logo Honoratoiphones></a>
         <nav id="nav">
@@ -21,17 +23,76 @@
                 <li><a class="linkMenu" href="streaming.html">#Streaming</a></li>
                 <li><a class="linkMenu" href="contato.html">contato</a></li>
                 <!-- atalho para copiar conteúd > alt + shift + seta para baixo -->
-        
-        
-
-
-
-            </ul> 
-
-
+            </ul>
         </nav>
     </header>
-
+    <!-- fim menu Reponsivo -->
+    <!-- início carousel página principal -->
+<div id="carsouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+            <img 
+            src="./img/Apple 13-logo_1.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </div>
+        <div class="carousel-item" data-bs-interval="500">
+            <img 
+            src="./img/iphone-14-logo_4.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </div>
+        <div class="carousel-item" data-bs-interval="500">
+            <img 
+            src="./img/iphone11-logo_2.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </div>
+        <div class="carousel-item" data-bs-interval="500">
+            <img 
+            src="./img/iPhones12-logo_3.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </div>
+    <div class="carousel-item" data-bs-interval="500">
+            <img 
+            src="./img/Apple 13-logo_1.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </div>
+    </div>
+    <!-- fim imagens carousel-->
+    <!-- início controle do carousel -->
+    <button 
+         class="carousel-control-prev"
+         data-bs-target="#carouselExampleInterval"
+         type="button"
+         data-bs-slide="prev"
+   >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>    
+    <button 
+         class="carousel-control-next"
+         data-bs-target="#carouselExampleInterval"
+         type="button"
+         data-bs-slide="next"
+   >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>  
+<!-- fim do controle do carousel -->
+<!-- fim do carousel -->  
 
 </body>
+
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    
 </html>
