@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Bebas+Neue);
+
 /* arquivo responsavel pelos estilos */
 /* aula 24/04/2023 - estilos do menu */
 body, ul {
@@ -63,7 +63,7 @@ body, ul {
     width: 100%;
     height: 600px;
 }
-#carouselexampleinterval img {
+#carouselExampleInterval img {
     height: 500px;
     width: auto;
 
@@ -143,4 +143,48 @@ body, ul {
 
 .destaque img {
     height: 220px;
+}
+/* fim CSS Destaque */
+
+/* início CSS Novidades */
+
+.novidades .text-body {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2 {
+    color: #000;
+}
+
+.novidades p {
+    color: rgb(0, 0, 0);
+}
+
+.novidades a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: violet;
+    padding: 6px 12px;
+    background-color:rgb(0, 68, 194);
+    font-weight: 400;        
+}
+/* fim CSS Novidades */
+/* iní CSS Galeria */
+
+.galeria {
+    margin: 60px auto 20px;
+}
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 50px;
 }
