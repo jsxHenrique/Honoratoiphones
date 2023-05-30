@@ -33,38 +33,47 @@
     <div class="contato">
         <div class="container">
             <div class="row">
-                <!-- Início da tag section com texto de contato -->
+                
+                <!-- inicio formulário -->
+                <div class="col-md-6">
+                    <!-- Início da tag section com texto de contato -->
                 <section class="col-12">
                     <h2>Entre em contato conosco!</h2>
                     <p>para Dúvidas, elogios ou reclamaçoes entre em contato conosco!</p>
                 </section>
                 <!-- fim da tag section com texto de contato -->
-                <!-- inicio formulário -->
-                <div class="col-md-6">
-                    <div class="well well-sm">
+                    <div class="form_main">
                         <form class="form-horizontal" method="post" action="">
                             <fieldset>
-                                <legend class="text-left header">preencha suas informaçoes:
+                                <legend class="text-left header">preencha suas informaçoes:</legend>
                                     <div class="form-group">
                                         <div class="col-md-10 col-md-offset-1">
-                                        <input id="iname" name="name" type="text" placeholder="insira seu primeiro nome" class="form-control" required>     
+                                        <input id="fname" name="name" type="text" placeholder="insira seu primeiro nome" class="form-control" required>     
                                       </div>
                                     <div>
                                 </legend>
                             <div class="col-md-10 col-md-offset-1">
-                                <input id="fname" name="name" type="text" placeholder="insira seu primeiro nome" class="form-control" required>
+                                <input id="iname" name="name" type="text" placeholder="insira seu ultimo nome " class="form-control" required>
                            </div>
                         </div>
                                     <div class="form-group">
                                         <div class="col-md-10 col-md-offset-1">
-                                        <input id="iname" name="name" type="text" placeholder="insira seu primeiro nome" class="form-control" required>     
+                                        <input id="email" name="email" type="email" placeholder="insira seu E-mail" class="form-control" required>     
                                       </div>
                                     <div>
                                 </legend>
                             <div class="col-md-10 col-md-offset-1">
-                                <input id="fname" name="name" type="text" placeholder="insira seu primeiro nome" class="form-control" required>
+                                <input id="phone" name="phone" type="text" placeholder="insira seu telefone" class="form-control-msg" required>
+                           </div>
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea id="message" name="message" type="text" placeholder="insira sua mensagem que retornaremos em até 2 dias úteis " class="form-control-msg" required rows="7"></textarea>
                            </div>
                         </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="formbutto">enviar</button>
+                            </div>
+                         </div>
                     </fieldset>
                 </form>
             </div>
@@ -93,6 +102,15 @@
         </div>
 
     </div>
+<!-- fim form contato -->
+<!-- início whatsapp -->
+<div class="whatsapp">
+    <div class="container-grid logo whats">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=15996063835&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20loja%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20.%20%F0%9F%98%80%F0%9F%93%B1"><img src="./img/whats.png" class="pulando" alt="contato Whatsapp"></a>
+    </div>
+</div>
+<!-- fim whatsapp -->
+
     <!-- início footer -->
     <footer class="rodape">
         <div class="container">
