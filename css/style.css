@@ -520,3 +520,45 @@ filter: brightness(100%);
 
 
 /* fim Whatsapp */
+
+/* início CSS card produtos */
+
+.text-center .mb-5 {
+  margin-top: 20px;
+}
+.card img {
+  max-height: 300px;
+  width: 100%;
+}
+.bg-image {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;  
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+.overlay .mask {
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+.hover-overlay mask:hover {
+  opacity: 1;
+}
+.cardy-body .btn {
+  background-color: #b3b3b3;
+  color: white;
+  border: none;
+}
+
+/* fim CSS card produtos */
